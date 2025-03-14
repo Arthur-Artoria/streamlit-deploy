@@ -9,9 +9,9 @@ import matplotlib
 import streamlit.components.v1 as components
 
 matplotlib.use('TkAgg')
-
+ 
 #将文件中的路径修改为本地模型文件，通常为pkl文件,Windows电脑记得写绝对路径
-pickle_in1 = open("C:/Users/18255/Desktop/classifier1.pkl", "rb")
+pickle_in1 = open("./classifier1.pkl", "rb")
 classifier1 = pickle.load(pickle_in1)  #加载分类器
 
 #定义prediction1函数用来预测
