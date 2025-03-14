@@ -8,7 +8,7 @@ import shap
 import matplotlib
 import streamlit.components.v1 as components
 
-matplotlib.use('TkAgg')
+# matplotlib.use('TkAgg')
  
 #将文件中的路径修改为本地模型文件，通常为pkl文件,Windows电脑记得写绝对路径
 pickle_in1 = open("./classifier1.pkl", "rb")
